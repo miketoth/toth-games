@@ -1,0 +1,7 @@
+[submodule "themes/ananke"]
+	path = themes/ananke
+	url = https://github.com/budparr/gohugo-theme-ananke.git
+[submodule "miketoth.github.io"]
+	path = miketoth.github.io
+	url = https://github.com/miketoth/miketoth.github.io.git
+	branch = master
