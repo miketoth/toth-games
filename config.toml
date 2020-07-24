@@ -1,4 +1,4 @@
-baseURL = "miketoth.github.io/toth-games"
+baseURL = "/toth-games"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "ananke"
