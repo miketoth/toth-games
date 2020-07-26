@@ -8,23 +8,13 @@
   </url>
   
   <url>
-    <loc>/toth-games/</loc>
-    <lastmod>2020-07-24T15:39:23-07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/toth-games/posts/</loc>
     <lastmod>2020-07-24T15:39:23-07:00</lastmod>
   </url>
   
   <url>
-    <loc>/toth-games/about/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/toth-games/contact/</loc>
-    <priority>0</priority>
+    <loc>/toth-games/</loc>
+    <lastmod>2020-07-24T15:39:23-07:00</lastmod>
   </url>
   
   <url>
@@ -33,7 +23,19 @@
   </url>
   
   <url>
+    <loc>/toth-games/loa/</loc>
+  </url>
+  
+  <url>
+    <loc>/toth-games/about/</loc>
+  </url>
+  
+  <url>
     <loc>/toth-games/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>/toth-games/contact/</loc>
   </url>
   
   <url>

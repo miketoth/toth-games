@@ -1,11 +1,12 @@
 {
   "baseURL": "/toth-games",
   "languageCode": "en-us",
-  "title": "Legends of the Arena",
+  "title": "toth games",
   "theme": "ananke",
   "publishDir": "docs",
   "params": {
-    "body_classes": "sans-serif"
+    "body_classes": "sans-serif",
+    "custom_css": ["css/custom_style.css"]
   },
   "menu": {
     "main": [
@@ -17,10 +18,10 @@
         "weight": -110
        },
        {
-        "identifier": "tothgames",
-        "name": "toth games",
+        "identifier": "loa",
+        "name": "legends of the arena",
         "pre": "\u003ci class='fa fa-heart'\u003e\u003c/i\u003e",
-        "url": "/tothgames/",
+        "url": "/loa/",
         "weight": -110
        },
        {

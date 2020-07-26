@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Legends of the Arena</title>
+    <title>toth games</title>
     <link>/toth-games/</link>
-    <description>Recent content on Legends of the Arena</description>
+    <description>Recent content on toth games</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 24 Jul 2020 15:39:23 -0700</lastBuildDate>
@@ -12,12 +12,12 @@
     
     
     <item>
-      <title>July Gameplay changes</title>
+      <title>Announcing Legends of the Arena</title>
       <link>/toth-games/posts/my-first-post/</link>
       <pubDate>Fri, 24 Jul 2020 15:39:23 -0700</pubDate>
       
       <guid>/toth-games/posts/my-first-post/</guid>
-      <description>Lots of cool changes from the conjoined triangle of success
+      <description>Look at this cool new game we made
 There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don&amp;rsquo;t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn&amp;rsquo;t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</description>
     </item>
     
