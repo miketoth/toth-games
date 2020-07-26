@@ -4,7 +4,7 @@ date: 2020-07-24T15:39:23-07:00
 draft: true
 ---
 
-![Legends Logo](/static/legends_logo_v1.png)
+![Legends Logo](/toth-games/legends_logo_v1.png)
 
 Look at this cool new game we made
 
