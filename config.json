@@ -1,0 +1,41 @@
+{
+  "baseURL": "/toth-games",
+  "languageCode": "en-us",
+  "title": "Legends of the Arena",
+  "theme": "ananke",
+  "publishDir": "docs",
+  "params": {
+    "body_classes": "sans-serif"
+  },
+  "menu": {
+    "main": [
+       {
+        "identifier": "about",
+        "name": "about",
+        "pre": "\u003ci class='fa fa-heart'\u003e\u003c/i\u003e",
+        "url": "/about/",
+        "weight": -110
+       },
+       {
+        "identifier": "tothgames",
+        "name": "toth games",
+        "pre": "\u003ci class='fa fa-heart'\u003e\u003c/i\u003e",
+        "url": "/tothgames/",
+        "weight": -110
+       },
+       {
+        "name": "contact",
+        "pre": "\u003ci class='fa fa-road'\u003e\u003c/i\u003e",
+        "url": "/contact/",
+        "weight": -100
+       },
+       {
+        "name": "blog",
+        "post": "\u003cspan class='alert'\u003eNew!\u003c/span\u003e",
+        "pre": "\u003ci class='fa fa-road'\u003e\u003c/i\u003e",
+        "url": "/",
+        "weight": -100
+       }
+    ]
+ }
+}
