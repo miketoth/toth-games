@@ -22,6 +22,10 @@
   </url>
   
   <url>
+    <loc>/posts/generating-cards/</loc>
+  </url>
+  
+  <url>
     <loc>/tothgames/</loc>
     <priority>0</priority>
   </url>
