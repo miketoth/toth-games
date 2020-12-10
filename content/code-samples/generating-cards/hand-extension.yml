@@ -1,0 +1,19 @@
+bonus1text:
+  extends: bonus1
+  x: += 150
+  valign: bottom
+  width: 50
+  align: center
+  font: 'bold'
+
+bonus2text:
+  extends:
+    - bonus2
+    - bonus1text
+  y: += 198
+
+bonus3text:
+  extends:
+    - bonus3
+    - bonus1text
+  y: += 396

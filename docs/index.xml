@@ -17,5 +17,14 @@
 There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don&amp;rsquo;t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn&amp;rsquo;t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</description>
     </item>
     
+    <item>
+      <title></title>
+      <link>/posts/generating-cards/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/generating-cards/</guid>
+      <description>Introduction If you are interesting in making a boardgame that involves cards (or a cardgame without a board at all), you&amp;rsquo;ve come to the right place! Even if your game doesn&amp;rsquo;t use standard-sized playing cards, it might have character sheets, player mats, or other significant components with ever-changing text. If you&amp;rsquo;ve already started making your game, you&amp;rsquo;ve probably found it can be frustrating to constantly update your cards as your game evolves.</description>
+    </item>
+    
   </channel>
 </rss>
