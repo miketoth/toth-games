@@ -1,5 +1,5 @@
 ---
-title: "About"
+litle: "about"
 description: "A few years ago, while playing star wars epic duels, rather than admitting defeat we decided to make a game that always rewards the most skilled player"
 ---
 
