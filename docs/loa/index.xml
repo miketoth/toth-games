@@ -5,10 +5,6 @@
     <link>/loa/</link>
     <description>Recent content in   on toth games</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="/loa/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="/loa/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
