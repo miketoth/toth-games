@@ -1,6 +1,6 @@
 ---
 title: contact
-featured_image: "images/notebook.jpg"
+featured_image: "legends_logo_v1.png"
 omit_header_text: true
 description: We'd love to hear from you
 type: page
