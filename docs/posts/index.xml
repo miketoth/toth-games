@@ -6,22 +6,13 @@
     <description>Recent content in Posts on toth games</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 26 Jul 2020 14:00:14 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jul 2020 15:39:23 -0700</lastBuildDate>
     
 	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Another One</title>
-      <link>/posts/another-one/</link>
-      <pubDate>Sun, 26 Jul 2020 14:00:14 -0700</pubDate>
-      
-      <guid>/posts/another-one/</guid>
-      <description>And another one</description>
-    </item>
-    
-    <item>
-      <title>Announcing Legends of the Arena</title>
+      <title>Testing!</title>
       <link>/posts/my-first-post/</link>
       <pubDate>Fri, 24 Jul 2020 15:39:23 -0700</pubDate>
       

@@ -4,6 +4,7 @@
   "title": "toth games",
   "theme": "ananke",
   "publishDir": "docs",
+  "disqusShortname": "tothgames-com",
   "params": {
     "body_classes": "sans-serif",
     "custom_css": ["css/custom_style.css"]
