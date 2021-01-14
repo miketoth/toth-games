@@ -5,6 +5,7 @@
   "theme": "ananke",
   "ignoreFiles": ["code-samples.*"],
   "publishDir": "docs",
+  "disqusShortname": "tothgames-com",
   "params": {
     "body_classes": "sans-serif",
     "custom_css": ["css/custom_style.css"]
