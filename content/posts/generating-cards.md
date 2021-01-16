@@ -59,9 +59,12 @@ If you don't already have tools you prefer for working with code, here are some 
 * [Visual Studio Code](https://code.visualstudio.com/)
 * [Ruby](https://www.ruby-lang.org/en/documentation/installation/)
 
+**TODO** add tip about when Ruby is actually finished installing including the screenshot of the setup being finished
+
 There are also a few commands that you will need to run in a terminal.  I'll assume `Command Prompt` since this is available on all Windows systems, but any terminal should work fine.  If you haven't used `Command Prompt` before, here's a [cheatsheet](http://www.cs.columbia.edu/~sedwards/classes/2015/1102-fall/Command%20Prompt%20Cheatsheet.pdf) to get you started.
 
 Copy the [example code](https://github.com/miketoth/toth-games/tree/master/content/code-samples/generating-cards) into a new directory for your game. 
+**TO DO** Fix link to example code. Also would be good to provide some instruction on how to download the code. I would recommened saying "Download example code and put it into a new folder for your game on your computer." 
 
 To install dependencies, run the following:
 
@@ -69,26 +72,32 @@ To install dependencies, run the following:
     gem install bundler
     bundle install
 ```
+**TO DO** Expand instructions to make clear where the files need to be and where you need to be to run the code. 
+**TO DO** add a note that bundle install may take a long time (~20 minutes for me)
 
 Run `bundle exec rake generate` to generate some cards.  You should see a png in the `_output` directory!
 
 ### Make it your own
 
-The .csv file in `loc` holds the data that gets put into the cards. You can easily edit this file with a tool like Excel or [LibreOffice](https://www.libreoffice.org/download/download/). Modify the data and re-run `bundle exec rake generate` to generate new cards.  Change `mainfile.rb` to use your preferred template, and adjust the .csv accordingly.  Do note that Tabletop Simulator has a deck limit of 70 cards (so if you want more cards than that, make multiple decks).  Explore the options in Squib's [text method](https://squib.readthedocs.io/en/v0.16.0/text_feature.html); for example, you can try out some different fonts from [dafont.com](https://www.dafont.com/). Re-generate the cards often to make sure nothing is broken, and revert your changes if something is wrong.
+The `warrior_deck.csv` holds the data that gets put into the cards. You can easily edit this file with a tool like Excel or [LibreOffice](https://www.libreoffice.org/download/download/). Modify the data and re-run `bundle exec rake generate` to generate new cards.  Change `cardgen.rb` to use your preferred template, and adjust the .csv accordingly.  Do note that Tabletop Simulator has a deck limit of 70 cards (so if you want more cards than that, make multiple decks).  Explore the options in Squib's [text method](https://squib.readthedocs.io/en/v0.16.0/text_feature.html); for example, you can try out some different fonts from [dafont.com](https://www.dafont.com/). Re-generate the cards often to make sure nothing is broken, and revert your changes if something is wrong.
 
-The [resources](https://squib.readthedocs.io/en/v0.16.0/help.html) available for Squib in particular and [Ruby](https://www.ruby-lang.org/en/documentation/quickstart/) in general are quite comprehensive, so I won't attempt to replicate them here.  Spend as much time as you need on this step to generate a minimum playable version of your cards, but don't get caught up making your cards beautiful.  Remember, the goal is to get the next iteration of your game toplaytesters as soon as possible!
+The [resources](https://squib.readthedocs.io/en/v0.16.0/help.html) available for Squib in particular and [Ruby](https://www.ruby-lang.org/en/documentation/quickstart/) in general are quite comprehensive, so I won't attempt to replicate them here.  Spend as much time as you need on this step to generate a minimum playable version of your cards, but don't get caught up making your cards beautiful.  Remember, the goal is to get the next iteration of your game to playtesters as soon as possible!
 
 ### Images
 
 For an early game the excellent [game-icons.net](https://game-icons.net/) has all the images you need.  Spend a few minutes to find some useful iconography that will make it easier for your playtesters to understand your game.  Once you have these picked out, Andy Meneely's fantastic [Ruby library](https://github.com/andymeneely/game_icons) lets you easily pull these into the cards you've generated with Squib.
 
-The example code has a few images already. These are defined in `mainfile.rb`.  Try changing these out with your own selections.
+The example code has a few images already. These are defined in `cardgen.rb`.  Try changing these out with your own selections.
+
+**TO DO** Add note that says that recent icons may not yet be available in the library. 
+**TO DO** Add example of changing out an icon. 
+For example, try replacing ``in cardgen.rb with `delapouite/revolver` to get this [revolver](https://game-icons.net/1x1/delapouite/revolver.html) icon.
 
 ## Testing online  
 
 ### Make generated cards available for testing
 
-First, you need to create client credentials to enable uploading.  Follow step one [in the People API Ruby Quickstart](https://developers.google.com/people/quickstart/ruby#step_1_turn_on_the). Save the resulting file as `credentials.json` in the root of your project.
+First, you need to create client credentials to enable uploading.  Follow step one [in the People API Ruby Quickstart](https://developers.google.com/people/quickstart/ruby#step_1_turn_on_the). Select Desktop App when asked to Configure your OAuth Client. Save the resulting file as `credentials.json` in your root project folder.
 
 For each deck you've generated, do each of the following steps.  This portion is a bit tedious, but only needs to be done once for each deck.
 
@@ -96,7 +105,7 @@ For each deck you've generated, do each of the following steps.  This portion is
 2. Enable link sharing so that anyone can view the file.  Copy the id (shown below).
 ![sharing your file](../images/generating-cards/sharing.png)
 3. Modify `cardgen.rb` to set the `uploadTarget` for your deck to the copied id.  In this case, the `uploadTarget` for the `warrior` deck is `1hk8tZMXoBXB9Vdh0koP74iM-UhMBe1sT` (you will need to replace this value in order to upload your own deck).
-4. Optional: change your deck and run `bundle exec rake generate -- -o upload` to see the new deck uploaded!
+4. Change your deck and run `bundle exec rake generate -- -o upload` to see the new deck uploaded! Note that you may get an error message like `Google::Apis::ClientError: accessNotConfigured: Access Not Configured. Drive API has not been used in project ...`.  If you do, follow the provided link to enable the Drive API.
 
 ### Import decks to Tabletop Simulator
 
