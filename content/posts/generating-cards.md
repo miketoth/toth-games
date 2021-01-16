@@ -9,7 +9,7 @@ toc: true
 
 If you are interested in making a boardgame that involves cards (or a cardgame without a board at all), you've come to the right place!  Even if your game doesn't use standard-sized playing cards, it might have character sheets, player mats, or other significant components with ever-changing text. If you've already started making your game, you've probably found it can be frustrating to constantly update your cards as your game evolves.  There is a better way.
 
-Of everything I have tried in my 4+ year journey of making a game, nothing has saved me more time than investing in card generation back by a shared online spreadsheet.  The generated cards are immediately available for online playtesting, which means I can update the game in less than a minute between playtests. Tools are great, but they should get out of the way and let you get back to working on your game.  For me, this setup has become nearly "invisible".  
+Of everything I have tried in my 4+ year journey of making a game, nothing has saved me more time than investing in card generation backed by spreadsheet.  The generated cards are immediately available for online playtesting, which means I can update the game in less than a minute between playtests. Tools are great, but they should get out of the way and let you get back to working on your game.  For me, this setup has become nearly "invisible".  
 
 The ultimate objective is to bring the next iteration of your game to playtesters as quickly as possible.  Successful games have dozens, perhaps hundreds, of iterations.  Invest some time now to reap the rewards later.
 
@@ -31,7 +31,7 @@ Putting your cards in a spreadsheet is an easy way to separate all of the raw nu
 
 If you are not a seasoned programmer, the idea of writing code to make cards from the data in your spreadsheet may seem daunting.  However, if you are bogged down by making tweaks to your prototype and already willing to make the investment to learn some sort of digital tool, you might as well learn a tool that will continue grow with you.  For your earliest prototypes, the "code" necessary to get started is minimal - just copy the examples and make a few tweaks.  I think [Squib](https://squib.rocks/), written in [Ruby](https://www.ruby-lang.org/en/) is a great tool for the job.
 
-This is not to say that you can't do great work with a WYSIWYG editor.  Many real published games have been built with tools like [nanDECK](http://www.nandeck.com/), or no tools at all. I've tried these approaches and found that having the flexibiltiy, documentation, and power of a standard programming language saved me the most time.
+This is not to say that you can't do great work with a what-you-see-is-what-you-get editor.  Many real published games have been built with tools like [nanDECK](http://www.nandeck.com/), or no tools at all. I've tried these approaches and found that having the flexibiltiy, documentation, and power of a standard programming language saved me the most time.
 
 There are some other benefits to using a prorgramming language to generate your cards.  Most major languages are cross-platform, so you can easily work on any operating system.  It is also very handy to have a code-based representation of your cards in case you want to mathematically analyze your game (see future posts!). You can write tests to verify behavior and check everything into soure control.  The ability to easily define different card generation modes is of surprising utility; you can generate cards for a printer, for the computer, with certain text removed, with color, etc.
 
@@ -39,7 +39,7 @@ There are some other benefits to using a prorgramming language to generate your 
 
 Locally we've been under some sort of lockdown for most of 2020, but, even before that, my co-designer and I were doing most of our testing remotely!  We live about 40 minutes apart, so having a digital prototype really lowers the barrier to playing a few games after work. The accumulation of all that weekly testing is the core of our design process.
 
-We've found [Tabletop Simulator](https://store.steampowered.com/app/286160/Tabletop_Simulator/) to be more than adequate for our needs.  Though it is a litle difficult to get used to at first, Tabletop Simulator is incredibly flexible which is great for a game that is constantly changing.
+We've found [Tabletop Simulator](https://store.steampowered.com/app/286160/Tabletop_Simulator/) to be more than adequate for our needs.  Though it is a little difficult to get used to at first, Tabletop Simulator is incredibly flexible which is great for a game that is constantly changing.
 
 During the last year, we've also moved our external playtesting online as well. Nothing beats playing in person, but there are distinct advantages when playing online: minimal setup, no cleanup, and so much less time spent assembling prototypes.  We use [Discord's](https://discord.com/) voice chat to replicate some of the in-person experience and gather feedback after testing.
 
@@ -47,11 +47,11 @@ We miss the convention scene, especially our local Protospiel, but I do believe 
 
 # Step-by-step instructions
 
-To keep things brief, I will present only the tools that I currently use.  There are alternatives for each stage part of the implementation, but I have found these to work well for me over the last 4 years.  They are cheap (everything is free except for [Tabletop Simulator](https://store.steampowered.com/app/286160/Tabletop_Simulator/), which is $20 USD normally and $10 on sale), reliable, and robust.  However, if there are other tools you prefer to use, the same concepts should apply.
+To keep things brief, I will present only the tools that I currently use.  There are alternatives for each part of the implementation, but I have found these to work well for me over the last 4 years.  They are cheap (everything is free except for [Tabletop Simulator](https://store.steampowered.com/app/286160/Tabletop_Simulator/), which is $20 USD normally and $10 on sale), reliable, and robust.  However, if there are other tools you prefer to use, the same concepts should apply.
 
 ## Generating cards
 
-I strongly recommend [squib](https://squib.rocks/) to generate your cards. The [documentation](https://squib.readthedocs.io/en/v0.16.0/) is fantastic, but I actually recommend that you starting by picking a [sample layout](https://github.com/andymeneely/squib/tree/v0.16.0/samples/layouts) that you like and work with that. I'll be working with the ["hand"](https://github.com/andymeneely/squib/blob/v0.16.0/samples/layouts/expected_layouts_builtin_hand_00.png) layout. At this stage, don't even worry about customizing the layout for your game; once you have something working from end-to-end, you can go back and tweak the code.
+I strongly recommend [squib](https://squib.rocks/) to generate your cards. The [documentation](https://squib.readthedocs.io/en/v0.16.0/) is fantastic, but I actually recommend that you start by picking a [sample layout](https://github.com/andymeneely/squib/tree/v0.16.0/samples/layouts) that you like and work with that. I'll be working with the ["hand"](https://github.com/andymeneely/squib/blob/v0.16.0/samples/layouts/expected_layouts_builtin_hand_00.png) layout. At this stage, don't even worry about customizing the layout for your game; once you have something working from end-to-end, you can go back and tweak the code.
 
 ### Initial setup
 
