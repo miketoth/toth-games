@@ -114,7 +114,7 @@ For each deck you've generated, do each of the following steps.  This portion is
 First we need to point Tabletop Simulator at the save file where we will build the game.
 
 1. Find the location of your Tabletop Simulator's save directory.  For example, my directory is `C:\Users\Brian\Documents\My Games\Tabletop Simulator\Saves\`.
-2. Link `generated_tts_save.json` to the saves directory.  For example, on windows: `mklink C:\Users\Brian\Documents\"My Games"\"Tabletop Simulator"\Saves\generated_tts_save.json C:\Users\Brian\code\toth-games\content\code-samples\generating-cards\generated_tts_save.json` (note that you may need to enable [developer mode](https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development) or run CMD as an administrator to do this).
+2. Link `generated_tts_save.json` to the Saves directory.  For example, on windows: `mklink C:\Users\Brian\Documents\"My Games"\"Tabletop Simulator"\Saves\generated_tts_save.json C:\Users\Brian\code\toth-games\content\code-samples\generating-cards\generated_tts_save.json` (note that you may need to enable [developer mode](https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development) or run `Command Prompt` as an administrator to do this).
 3. Load the game in Tabletop Simulator!
 
 Once you've loaded `generated_tts_save.json` in Tabletop Simulator, you can set up your game.  Do the following for each of your decks, and be sure to overwrite the save file once you are done:
@@ -126,6 +126,9 @@ Once you've loaded `generated_tts_save.json` in Tabletop Simulator, you can set 
 3. Make sure to check "Back is Hidden".
 3. Click "Import".
 4. Right click the deck and set the name to match your csv file (e.g. `warrior_deck`).  This is important so that `adjust_deck_size` can later adjust the size of the deck as you change the number of cards contained.
+5. Overwrite the save file.
+**TODO** Instructions for decks less than 7
+6. 
 
 ![custom deck import](../images/generating-cards/import_deck.png)
 
