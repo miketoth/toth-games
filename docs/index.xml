@@ -9,6 +9,17 @@
     <webMaster>hello@tothgames.com (Michael Toth &amp; Brian Toth)</webMaster>
     <lastBuildDate>Mon, 25 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://tothgames.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Using Monte Carlo simulation in game design</title>
+      <link>https://tothgames.com/posts/monte-carlo/</link>
+      <pubDate>Sat, 27 Feb 2021 00:00:00 +0000</pubDate>
+      <author>hello@tothgames.com (Michael Toth &amp; Brian Toth)</author>
+      <guid>https://tothgames.com/posts/monte-carlo/</guid>
+      <description>Introduction &amp;ldquo;Shouldn&amp;rsquo;t I always attack with my whole army?&amp;rdquo;
+&amp;ldquo;Why would I ever pick this card?&amp;rdquo;
+If you&amp;rsquo;ve ever had a playtest that led to awkward questions like these - and realized that your players were totally right - you&amp;rsquo;ve probably wondered how you might catch this sort of issue during design. Maybe you recalled a confusing formula like \( {n\choose k} = \frac{n!}{k!(n-k)!} \), but found it woefully inadequate when dealing with the sort of scenarios common in board games.</description>
+    </item>
+    
+    <item>
       <title>Legends of the Arena</title>
       <link>https://tothgames.com/games/loa/</link>
       <pubDate>Thu, 21 Jan 2021 00:00:00 +0000</pubDate>
