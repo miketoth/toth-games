@@ -7,7 +7,7 @@ toc: true
 ---
 # Introduction
 
-If you are interesting in making a boardgame that involves cards (or a cardgame without a board at all), you've come to the right place!  Even if your game doesn't use standard-sized playing cards, it might have character sheets, player mats, or other significant components with ever-changing text. If you've already started making your game, you've probably found it can be frustrating to constantly update your cards as your game evolves.  There is a better way.
+If you are interested in making a boardgame that involves cards (or a cardgame without a board at all), you've come to the right place!  Even if your game doesn't use standard-sized playing cards, it might have character sheets, player mats, or other significant components with ever-changing text. If you've already started making your game, you've probably found it can be frustrating to constantly update your cards as your game evolves.  There is a better way.
 
 Of everything I have tried in my 4+ year journey of making a game, nothing has saved me more time than investing in card generation back by a shared online spreadsheet.  The generated cards are immediately available for online playtesting, which means I can update the game in less than a minute between playtests. Tools are great, but they should get out of the way and let you get back to working on your game.  For me, this setup has become nearly "invisible".  
 
