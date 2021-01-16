@@ -3,7 +3,7 @@ title: "Prototyping board games on Tabletop Simulator using Squib"
 date: 2020-01-16T15:39:23-07:00
 draft: true
 toc: true
-#featured_image: '/legends_logo_v1.png'
+featured_image: '/legends_logo_v1.png'
 ---
 # Introduction
 
