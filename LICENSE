@@ -1,13 +1,15 @@
-Copyright © 2021 Michael Toth and Brian Toth. All Rights Reserved, except for the parts enumerated below or where noted otherwise:
+Copyright © 2021 Michael Toth and Brian Toth. All Rights Reserved
+(including but not limited to blog content, visual design, and the logotype),
+except for the parts enumerated below or where noted otherwise:
 
-  The source code of the product is covered by the MIT License.
-  The source code in `/content/code-samples` is covered by the MIT License, except where noted otherwise.
+  The source code of the site is covered by the MIT License.
+  The source code in `/content/code-samples` is covered by the MIT License.
   The content in the `/themes/` directory has its own licenses.
 
 
 MIT License
 
-Copyright (c) 2020 Michael Toth
+Copyright (c) 2020 Michael Toth & Brian Toth
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
