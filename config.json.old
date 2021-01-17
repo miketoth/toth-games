@@ -8,8 +8,7 @@
   "disqusShortname": "tothgames-com",
   "params": {
     "body_classes": "sans-serif",
-    "custom_css": ["css/custom_style.css"],
-    "cover_dimming_class": "bg-black-0"
+    "custom_css": ["css/custom_style.css"]
   },
   "menu": {
     "main": [

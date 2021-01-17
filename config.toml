@@ -86,7 +86,7 @@ googleAnalytics = "G-3XTSCB5J42"
 
 [[menu.main]]
     name = "Subscribe"
-    url = "contact/_index.html"
+    url = "subscribe/index.html"
     weight = 4
 
 # [[menu.main]]
