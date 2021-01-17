@@ -1,7 +1,7 @@
 baseurl = "https://username.github.io"
 DefaultContentLanguage = "en"
 #DefaultContentLanguage = "ja"
-title = "Beautiful Hugo"
+title = "Legends of the Arena"
 theme = "beautifulhugo"
 metaDataFormat = "yaml"
 pygmentsStyle = "trac"
@@ -15,7 +15,7 @@ googleAnalytics = "G-3XTSCB5J42"
 
 [Params]
 #  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
-  subtitle = "Build a beautiful and simple website in minutes"
+  subtitle = "Asymmetric PVP tactical fighting game from toth games"
   mainSections = ["post","posts"]
   logo = "img/avatar-icon.png" # Expecting square dimensions
   favicon = "img/favicon.ico"
@@ -23,8 +23,8 @@ googleAnalytics = "G-3XTSCB5J42"
   commit = false
   rss = true
   comments = true
-  readingTime = true
-  wordCount = true
+  readingTime = false 
+  wordCount = false
   useHLJS = true
   socialShare = true
   delayDisqus = true
@@ -45,11 +45,11 @@ googleAnalytics = "G-3XTSCB5J42"
 #  desc = "Hexagon"
 
 [Author]
-  name = "Some Person"
+  name = "Michael"
   website = "yourwebsite.com"
   email = "youremail@domain.com"
 #  facebook = "username"
-  github = "username"
+  github = "miketoth"
 #  gitlab = "username"
 #  bitbucket = "username"
 #  twitter = "username"
@@ -84,30 +84,30 @@ googleAnalytics = "G-3XTSCB5J42"
     url = "about/"
     weight = 3
 
-[[menu.main]]
-    identifier = "samples"
-    name = "Samples"
-    weight = 2
-
-[[menu.main]]
-    parent = "samples"
-    name = "Big Image Sample"
-    url = "post/2017-03-07-bigimg-sample"
-    weight = 1
-
-[[menu.main]]
-    parent = "samples"
-    name = "Math Sample"
-    url = "post/2017-03-05-math-sample"
-    weight = 2
-
-[[menu.main]]
-    parent = "samples"
-    name = "Code Sample"
-    url = "post/2016-03-08-code-sample"
-    weight = 3
-
-[[menu.main]]
-    name = "Tags"
-    url = "tags"
-    weight = 3
+# [[menu.main]]
+#    identifier = "samples"
+#    name = "Samples"
+#    weight = 2
+#
+#[[menu.main]]
+#    parent = "samples"
+#    name = "Big Image Sample"
+#    url = "post/2017-03-07-bigimg-sample"
+#    weight = 1
+#
+#[[menu.main]]
+#    parent = "samples"
+#    name = "Math Sample"
+#    url = "post/2017-03-05-math-sample"
+#    weight = 2
+#
+#[[menu.main]]
+#    parent = "samples"
+#   name = "Code Sample"
+#   url = "post/2016-03-08-code-sample"
+#    weight = 3
+#
+#[[menu.main]]
+#    name = "Tags"
+#    url = "tags"
+#    weight = 3
