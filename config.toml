@@ -84,6 +84,11 @@ googleAnalytics = "G-3XTSCB5J42"
     url = "about/"
     weight = 3
 
+[[menu.main]]
+    name = "Subscribe"
+    url = "contact/_index.html"
+    weight = 4
+
 # [[menu.main]]
 #    identifier = "samples"
 #    name = "Samples"
