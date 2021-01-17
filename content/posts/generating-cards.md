@@ -1,9 +1,9 @@
 ---
-title: "Prototyping board games on Tabletop Simulator using Squib"
-date: 2020-01-16T15:39:23-07:00
+title: "Prototyping on Tabletop Simulator using Squib"
+date: 2020-01-16
+author: Brian Toth
 draft: true
 toc: true
-featured_image: '/legends_logo_v1.png'
 ---
 # Introduction
 
@@ -139,3 +139,5 @@ Now when you run `bundle exec rake generate -- -o upload` you should see the cha
 # Conclusion
 
 Congratulations on making it all of the way through! It isn't easy to move your game development workflow online, but once you do, it is hard to imagine going back!  Please leave a comment if there is anything you can't get to work or any requests you have for future posts.
+
+{{< form-contact action="https://formspree.io/f/mleoavan"  >}}
