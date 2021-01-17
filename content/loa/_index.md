@@ -10,5 +10,3 @@ menu: main
 
 **sign up to beta test**
 
-{{< form-contact action="https://example.com"  >}}
-
