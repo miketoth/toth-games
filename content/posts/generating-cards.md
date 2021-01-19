@@ -59,12 +59,14 @@ If you don't already have tools you prefer for working with code, here are some 
 * [Visual Studio Code](https://code.visualstudio.com/)
 * [Ruby](https://www.ruby-lang.org/en/documentation/installation/)
 
-**TODO** add tip about when Ruby is actually finished installing including the screenshot of the setup being finished
+There are a few options when installing Ruby, but the default work just fine.  When you are done, you should see something simlar to this:
 
-There are also a few commands that you will need to run in a terminal.  I'll assume `Command Prompt` since this is available on all Windows systems, but any terminal should work fine.  If you haven't used `Command Prompt` before, here's a [cheatsheet](http://www.cs.columbia.edu/~sedwards/classes/2015/1102-fall/Command%20Prompt%20Cheatsheet.pdf) to get you started.
+![ruby install finished](../images/generating-cards/rubysetupcomplete.png)
+
+There are also a few commands that you will need to run in a terminal.  I'll give instructions assuming [Command Prompt](https://www.lifewire.com/how-to-open-command-prompt-2618089) since this is available on all Windows systems, but any terminal should work fine.  If you haven't used a terminal before, here's a [cheatsheet](http://www.cs.columbia.edu/~sedwards/classes/2015/1102-fall/Command%20Prompt%20Cheatsheet.pdf) to get you started.
 
 Copy the [example code](https://github.com/miketoth/toth-games/tree/master/content/code-samples/generating-cards) into a new directory for your game. 
-**TO DO** Fix link to example code. Also would be good to provide some instruction on how to download the code. I would recommened saying "Download example code and put it into a new folder for your game on your computer." 
+Also would be good to provide some instruction on how to download the code. I would recommened saying "Download example code and put it into a new folder for your game on your computer." 
 
 To install dependencies, run the following:
 
