@@ -12,6 +12,7 @@ pygmentsCodefencesGuessSyntax = true
 disqusShortname = "tothgames-com"
 googleAnalytics = "G-3XTSCB5J42"
 ignoreFiles = ["code-samples.*"]
+publishDir = "docs"
 
 [Params]
   favicon = "img/favicon.ico"
