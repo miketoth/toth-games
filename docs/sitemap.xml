@@ -3,47 +3,39 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/posts/</loc>
+    <loc>https://username.github.io/</loc>
     <lastmod>2020-07-24T15:39:23-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/posts/my-first-post/</loc>
-    <lastmod>2020-07-24T15:39:23-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2020-07-24T15:39:23-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/about/</loc>
-  </url>
-  
-  <url>
-    <loc>/posts/generating-cards/</loc>
-  </url>
-  
-  <url>
-    <loc>/tothgames/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/loa/</loc>
+    <loc>https://username.github.io/posts/</loc>
+    <lastmod>2020-07-24T15:39:23-07:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>https://username.github.io/posts/my-first-post/</loc>
+    <lastmod>2020-07-24T15:39:23-07:00</lastmod>
   </url>
   
   <url>
-    <loc>/contact/</loc>
+    <loc>https://username.github.io/games/loa/</loc>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>https://username.github.io/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://username.github.io/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>https://username.github.io/games/</loc>
+  </url>
+  
+  <url>
+    <loc>https://username.github.io/tags/</loc>
   </url>
   
 </urlset>
