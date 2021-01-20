@@ -5,18 +5,14 @@
     <link>https://username.github.io/posts/</link>
     <description>Recent content in Posts on Toth Games</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>hello@tothgames.com (Michael &amp; Brian Toth)</managingEditor>
-    <webMaster>hello@tothgames.com (Michael &amp; Brian Toth)</webMaster>
-    <lastBuildDate>Fri, 24 Jul 2020 15:39:23 -0700</lastBuildDate>
-    
-	<atom:link href="https://username.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <managingEditor>hello@tothgames.com (Michael Toth &amp; Brian Toth)</managingEditor>
+    <webMaster>hello@tothgames.com (Michael Toth &amp; Brian Toth)</webMaster>
+    <lastBuildDate>Fri, 24 Jul 2020 15:39:23 -0700</lastBuildDate><atom:link href="https://username.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Testing!</title>
       <link>https://username.github.io/posts/my-first-post/</link>
       <pubDate>Fri, 24 Jul 2020 15:39:23 -0700</pubDate>
-      <author>hello@tothgames.com (Michael &amp; Brian Toth)</author>
+      <author>hello@tothgames.com (Michael Toth &amp; Brian Toth)</author>
       <guid>https://username.github.io/posts/my-first-post/</guid>
       <description>Look at this cool new game we made
 There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don&amp;rsquo;t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn&amp;rsquo;t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</description>
