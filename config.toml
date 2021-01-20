@@ -15,7 +15,7 @@ ignoreFiles = ["code-samples.*"]
 publishDir = "docs"
 
 [Params]
-  favicon = "img/favicon.ico"
+  favicon = "favicon.ico"
   dateFormat = "January 2, 2006"
   commit = false
   rss = true
