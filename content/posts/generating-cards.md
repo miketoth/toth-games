@@ -65,17 +65,15 @@ There are a few options when installing Ruby, but the default work just fine.  W
 
 There are also a few commands that you will need to run in a terminal.  I'll give instructions assuming [Command Prompt](https://www.lifewire.com/how-to-open-command-prompt-2618089) since this is available on all Windows systems, but any terminal should work fine.  If you haven't used a terminal before, here's a [cheatsheet](http://www.cs.columbia.edu/~sedwards/classes/2015/1102-fall/Command%20Prompt%20Cheatsheet.pdf) to get you started.
 
-Copy the [example code](https://github.com/miketoth/toth-games/tree/master/content/code-samples/generating-cards) into a new directory for your game. 
-Also would be good to provide some instruction on how to download the code. I would recommened saying "Download example code and put it into a new folder for your game on your computer." 
+Copy the [example code](https://github.com/miketoth/toth-games/tree/master/content/code-samples/generating-cards) into a new directory for your game. You can download all of code [here](https://github.com/miketoth/toth-games/archive/master.zip)
+(the example code is in `toth-games-master.zip\toth-games-master\content\code-samples\generating-cards`). Once you have copied this code into a new directory on your computer, navigate to that directory in a terminal.
 
-To install dependencies, run the following:
+To install dependencies, run the following (these steps may take a while - up to 20 minutes):
 
 ```
     gem install bundler
     bundle install
 ```
-**TO DO** Expand instructions to make clear where the files need to be and where you need to be to run the code. 
-**TO DO** add a note that bundle install may take a long time (~20 minutes for me)
 
 Run `bundle exec rake generate` to generate some cards.  You should see a png in the `_output` directory!
 
@@ -89,11 +87,7 @@ The [resources](https://squib.readthedocs.io/en/v0.16.0/help.html) available for
 
 For an early game the excellent [game-icons.net](https://game-icons.net/) has all the images you need.  Spend a few minutes to find some useful iconography that will make it easier for your playtesters to understand your game.  Once you have these picked out, Andy Meneely's fantastic [Ruby library](https://github.com/andymeneely/game_icons) lets you easily pull these into the cards you've generated with Squib.
 
-The example code has a few images already. These are defined in `cardgen.rb`.  Try changing these out with your own selections.
-
-**TO DO** Add note that says that recent icons may not yet be available in the library. 
-**TO DO** Add example of changing out an icon. 
-For example, try replacing ``in cardgen.rb with `delapouite/revolver` to get this [revolver](https://game-icons.net/1x1/delapouite/revolver.html) icon.
+The example code has a few images already. These are defined in `cardgen.rb`.  Try changing these out with your own selections. For example, you can replace `lorc/broadsword` in cardgen.rb with `delapouite/revolver` to get a [gun](https://game-icons.net/1x1/delapouite/revolver.html) icon.
 
 ## Testing online  
 
@@ -111,7 +105,7 @@ For each deck you've generated, do each of the following steps.  This portion is
 
 ### Import decks to Tabletop Simulator
 
-[Tabletop simulator](https://store.steampowered.com/app/286160/Tabletop_Simulator/) is a flexible tool for defining and playing your game online.
+[Tabletop simulator](https://store.steampowered.com/app/286160/Tabletop_Simulator/) is a flexible tool for defining and playing your game online.  Here's a [video tutorial](https://www.youtube.com/watch?v=SwxPE5V-nRA) to get started, and the [official docs](https://kb.tabletopsimulator.com/) are helpful as well.
 
 First we need to point Tabletop Simulator at the save file where we will build the game.
 
@@ -126,20 +120,20 @@ Once you've loaded `generated_tts_save.json` in Tabletop Simulator, you can set 
 2. Set `https://i.imgur.com/RSbXfZd.png` as the "Back" URL (you can also customize with your own image!).
 2. Set "Number" to match the initial number of cards in the deck (`adjust_deck_size` will automatically correct the size when you upload cards in the future).
 3. Make sure to check "Back is Hidden".
-3. Click "Import".
+3. Click "Import". If your deck is smaller than 8 cards, it may initially import with odd dimensions.  This will be corrected after you save, run `bundle exec rake generate -- -o upload`, and re-open your save file.
 4. Right click the deck and set the name to match your csv file (e.g. `warrior_deck`).  This is important so that `adjust_deck_size` can later adjust the size of the deck as you change the number of cards contained.
 5. Overwrite the save file.
-**TODO** Instructions for decks less than 7
-6. 
 
 ![custom deck import](../images/generating-cards/import_deck.png)
 
-Now when you run `bundle exec rake generate -- -o upload` you should see the changes in Tabletop Simulator the next time you load `generated_tts_save.json`.  If you make changes and re-upload your files between games, you may need to return to the main menu and re-host in order to see the latest cards.  You can now host games to share your prototype with playtesters!  Make sure everyone has "Mod Caching" turned off (in `Menu -> Configuration`) so that they load the latest generated files for your game.
+Now when you run `bundle exec rake generate -- -o upload` you should see the changes in Tabletop Simulator the next time you load `generated_tts_save.json`.  If you make changes and re-upload your files between games, you may need to return to the main menu and re-host in order to see the latest cards.
+
+You can now host games to share your prototype with playtesters!  Make sure everyone has "Mod Caching" turned off (in `Menu -> Configuration`) so that they load the latest generated files for your game.
 
 ![disable mod caching](../images/generating-cards/mod_caching_off.png)
 
 # Conclusion
 
-Congratulations on making it all of the way through! It isn't easy to move your game development workflow online, but once you do, it is hard to imagine going back!  Please leave a comment if there is anything you can't get to work or any requests you have for future posts.
+Congratulations! You are now setup for rapid digital prototyping. It takes a little work to move your game development workflow online, but, once you do, it is hard to imagine going back!  Please leave a comment if you have any questions or requests for future posts.
 
 {{< form-contact action="https://formspree.io/f/mleoavan"  >}}

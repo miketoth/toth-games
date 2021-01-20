@@ -41,7 +41,7 @@ ignoreFiles = ["code-samples.*"]
 #  desc = "Hexagon"
 
 [Author]
-  name = "Michael & Brian Toth"
+  name = "Michael Toth & Brian Toth"
   website = "tothgames.com"
   email = "hello@tothgames.com"
   twitter = "tothgames"
