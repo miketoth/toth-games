@@ -3,6 +3,11 @@ div.container {
   margin: auto;
 }
 
+header.header-section.has-img + div.container {
+  width: 70%;
+  margin: auto;
+}
+
 #TableOfContents {
   width: 70%;
   margin: auto;
