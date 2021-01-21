@@ -1,7 +1,7 @@
 ---
 title: "Testing!"
 date: 2020-07-24T15:39:23-07:00
-draft: false
+draft: true
 ---
 
 ![Legends Logo](/toth-games/legends_logo_v1.png)
