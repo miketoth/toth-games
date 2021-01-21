@@ -4,16 +4,9 @@ div.container {
 }
 
 header.header-section + div.container {
-  width: 70%;
-  margin: auto;
-}
-
-@media only screen and (max-width: 500px)
-header.header-section + div.container {
   width: 100%;
   margin: auto;
 }
-
 
 #TableOfContents {
   width: 70%;
