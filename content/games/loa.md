@@ -28,6 +28,6 @@ Legends of the Arena is a dueling game for two teams. As a team, coordinate your
 
 -----
 
-Interested in playtesting?  Join our Discord.
+Interested in playtesting?  Join our [Discord](https://discord.gg/mXkszAyX69).
 
 {{< form-contact action="https://formspree.io/f/mleoavan"  >}}
