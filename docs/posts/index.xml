@@ -1,1 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Toth Games</title><link>https://tothgames.com/posts/</link><description>Recent content in Posts on Toth Games</description><generator>Hugo -- gohugo.io</generator><managingEditor>hello@tothgames.com (Michael Toth &amp; Brian Toth)</managingEditor><webMaster>hello@tothgames.com (Michael Toth &amp; Brian Toth)</webMaster><lastBuildDate>Thu, 16 Jan 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://tothgames.com/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Prototyping on Tabletop Simulator using Squib</title><link>https://tothgames.com/posts/generating-cards/</link><pubDate>Thu, 16 Jan 2020 00:00:00 +0000</pubDate><author>hello@tothgames.com (Michael Toth &amp; Brian Toth)</author><guid>https://tothgames.com/posts/generating-cards/</guid><description>Introduction If you are interested in making a boardgame that involves cards (or a cardgame without a board at all), you&amp;rsquo;ve come to the right place! Even if your game doesn&amp;rsquo;t use standard-sized playing cards, it might have character sheets, player mats, or other significant components with ever-changing text. If you&amp;rsquo;ve already started making your game, you&amp;rsquo;ve probably found it can be frustrating to constantly update your cards as your game evolves.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Toth Games</title>
+    <link>https://tothgames.com/posts/</link>
+    <description>Recent content in Posts on Toth Games</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>hello@tothgames.com (Michael Toth &amp; Brian Toth)</managingEditor>
+    <webMaster>hello@tothgames.com (Michael Toth &amp; Brian Toth)</webMaster>
+    <lastBuildDate>Thu, 16 Jan 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://tothgames.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Prototyping on Tabletop Simulator using Squib</title>
+      <link>https://tothgames.com/posts/generating-cards/</link>
+      <pubDate>Thu, 16 Jan 2020 00:00:00 +0000</pubDate>
+      <author>hello@tothgames.com (Michael Toth &amp; Brian Toth)</author>
+      <guid>https://tothgames.com/posts/generating-cards/</guid>
+      <description>Introduction If you are interested in making a boardgame that involves cards (or a cardgame without a board at all), you&amp;rsquo;ve come to the right place! Even if your game doesn&amp;rsquo;t use standard-sized playing cards, it might have character sheets, player mats, or other significant components with ever-changing text. If you&amp;rsquo;ve already started making your game, you&amp;rsquo;ve probably found it can be frustrating to constantly update your cards as your game evolves.</description>
+    </item>
+    
+  </channel>
+</rss>
