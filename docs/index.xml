@@ -1,32 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Toth Games</title>
-    <link>https://tothgames.com/</link>
-    <description>Recent content on Toth Games</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>hello@tothgames.com (Michael Toth &amp; Brian Toth)</managingEditor>
-    <webMaster>hello@tothgames.com (Michael Toth &amp; Brian Toth)</webMaster>
-    <lastBuildDate>Fri, 24 Jul 2020 15:39:23 -0700</lastBuildDate><atom:link href="https://tothgames.com/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Testing!</title>
-      <link>https://tothgames.com/posts/my-first-post/</link>
-      <pubDate>Fri, 24 Jul 2020 15:39:23 -0700</pubDate>
-      <author>hello@tothgames.com (Michael Toth &amp; Brian Toth)</author>
-      <guid>https://tothgames.com/posts/my-first-post/</guid>
-      <description>Look at this cool new game we made
-There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don&amp;rsquo;t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn&amp;rsquo;t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://tothgames.com/games/loa/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>hello@tothgames.com (Michael Toth &amp; Brian Toth)</author>
-      <guid>https://tothgames.com/games/loa/</guid>
-      <description>Outplay your opponents in epic team duels.  Legends of the Arena is a dueling game for two teams. As a team, coordinate your unique abilities to develop a strategy, but, in order to win, you must also anticipate your opponents&#39; moves. No matter how far ahead or behind, you can always find a path to victory by outplaying your opponents!
- 1-9 players 20-40 minutes Ages 12+  Epic team duels  Minimal downtime: each player participates in every combat Incredible replay: every team composition has unique strengths No player is eliminated until the game is over  Double-blind combat with diverse counterplay  Combat simulates dynamic, uncertain fights.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Toth Games</title><link>https://tothgames.com/</link><description>Recent content on Toth Games</description><generator>Hugo -- gohugo.io</generator><managingEditor>hello@tothgames.com (Michael Toth &amp; Brian Toth)</managingEditor><webMaster>hello@tothgames.com (Michael Toth &amp; Brian Toth)</webMaster><lastBuildDate>Fri, 24 Jul 2020 15:39:23 -0700</lastBuildDate><atom:link href="https://tothgames.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Testing!</title><link>https://tothgames.com/posts/my-first-post/</link><pubDate>Fri, 24 Jul 2020 15:39:23 -0700</pubDate><author>hello@tothgames.com (Michael Toth &amp; Brian Toth)</author><guid>https://tothgames.com/posts/my-first-post/</guid><description>Look at this cool new game we made
+There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don&amp;rsquo;t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn&amp;rsquo;t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</description></item><item><title/><link>https://tothgames.com/games/loa/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>hello@tothgames.com (Michael Toth &amp; Brian Toth)</author><guid>https://tothgames.com/games/loa/</guid><description>Outplay your opponents in epic team duels. Legends of the Arena is a dueling game for two teams. As a team, coordinate your unique abilities to develop a strategy, but, in order to win, you must also anticipate your opponents&amp;rsquo; moves. No matter how far ahead or behind, you can always find a path to victory by outplaying your opponents!
+1-9 players 20-40 minutes Ages 12+ Epic team duels Minimal downtime: each player participates in every combat Incredible replay: every team composition has unique strengths No player is eliminated until the game is over Double-blind combat with diverse counterplay Combat simulates dynamic, uncertain fights.</description></item></channel></rss>

@@ -1,22 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Posts on Toth Games</title>
-    <link>https://tothgames.com/posts/</link>
-    <description>Recent content in Posts on Toth Games</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>hello@tothgames.com (Michael Toth &amp; Brian Toth)</managingEditor>
-    <webMaster>hello@tothgames.com (Michael Toth &amp; Brian Toth)</webMaster>
-    <lastBuildDate>Fri, 24 Jul 2020 15:39:23 -0700</lastBuildDate><atom:link href="https://tothgames.com/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Testing!</title>
-      <link>https://tothgames.com/posts/my-first-post/</link>
-      <pubDate>Fri, 24 Jul 2020 15:39:23 -0700</pubDate>
-      <author>hello@tothgames.com (Michael Toth &amp; Brian Toth)</author>
-      <guid>https://tothgames.com/posts/my-first-post/</guid>
-      <description>Look at this cool new game we made
-There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don&amp;rsquo;t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn&amp;rsquo;t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Toth Games</title><link>https://tothgames.com/posts/</link><description>Recent content in Posts on Toth Games</description><generator>Hugo -- gohugo.io</generator><managingEditor>hello@tothgames.com (Michael Toth &amp; Brian Toth)</managingEditor><webMaster>hello@tothgames.com (Michael Toth &amp; Brian Toth)</webMaster><lastBuildDate>Fri, 24 Jul 2020 15:39:23 -0700</lastBuildDate><atom:link href="https://tothgames.com/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Testing!</title><link>https://tothgames.com/posts/my-first-post/</link><pubDate>Fri, 24 Jul 2020 15:39:23 -0700</pubDate><author>hello@tothgames.com (Michael Toth &amp; Brian Toth)</author><guid>https://tothgames.com/posts/my-first-post/</guid><description>Look at this cool new game we made
+There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don&amp;rsquo;t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn&amp;rsquo;t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</description></item></channel></rss>
