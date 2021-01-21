@@ -47,6 +47,7 @@ publishDir = "docs"
   email = "hello@tothgames.com"
   twitter = "tothgames"
   reddit = "tothgames"
+  discord = "mXkszAyX69"
 [[menu.main]]
     name = "Legends of the Arena"
     url = "games/loa"

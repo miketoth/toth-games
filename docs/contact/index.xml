@@ -6,10 +6,6 @@
     <description>Recent content in Contact on Toth Games</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>hello@tothgames.com (Michael Toth &amp; Brian Toth)</managingEditor>
-    <webMaster>hello@tothgames.com (Michael Toth &amp; Brian Toth)</webMaster>
-    
-	<atom:link href="https://tothgames.com/contact/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <webMaster>hello@tothgames.com (Michael Toth &amp; Brian Toth)</webMaster><atom:link href="https://tothgames.com/contact/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
