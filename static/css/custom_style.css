@@ -8,7 +8,10 @@ div.container {
   margin: auto;
 }
 
-
 #TableOfContents > ul {
   list-style-type: none;
+}
+
+.intro-header.big-img {
+  background-size: contain !important;
 }
