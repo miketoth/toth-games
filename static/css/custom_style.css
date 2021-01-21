@@ -1,20 +1,17 @@
-# big width
 div.container {
   width: 100%;
   margin: auto;
 }
 
-# readable width
 #TableOfContents {
   width: 70%;
   margin: auto;
 }
 
-# no bullets
 #TableOfContents > ul {
   list-style-type: none;
 }
 
-# Make the image resize nicely
 .intro-header.big-img {
+  background-size: contain !important;
 }
