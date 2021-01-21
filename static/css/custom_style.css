@@ -1,0 +1,14 @@
+div.container {
+  width: 100%;
+  margin: auto;
+}
+
+#TableOfContents {
+  width: 70%;
+  margin: auto;
+}
+
+
+#TableOfContents > ul {
+  list-style-type: none;
+}
