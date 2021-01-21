@@ -7,24 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>hello@tothgames.com (Michael Toth &amp; Brian Toth)</managingEditor>
     <webMaster>hello@tothgames.com (Michael Toth &amp; Brian Toth)</webMaster>
-    <lastBuildDate>Thu, 16 Jan 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://tothgames.com/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Prototyping on Tabletop Simulator using Squib</title>
-      <link>https://tothgames.com/posts/generating-cards/</link>
-      <pubDate>Thu, 16 Jan 2020 00:00:00 +0000</pubDate>
-      <author>hello@tothgames.com (Michael Toth &amp; Brian Toth)</author>
-      <guid>https://tothgames.com/posts/generating-cards/</guid>
-      <description>Introduction If you are interested in making a boardgame that involves cards (or a cardgame without a board at all), you&amp;rsquo;ve come to the right place! Even if your game doesn&amp;rsquo;t use standard-sized playing cards, it might have character sheets, player mats, or other significant components with ever-changing text. If you&amp;rsquo;ve already started making your game, you&amp;rsquo;ve probably found it can be frustrating to constantly update your cards as your game evolves.</description>
-    </item>
-    
+    <lastBuildDate>Thu, 21 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://tothgames.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>https://tothgames.com/games/loa/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 21 Jan 2021 00:00:00 +0000</pubDate>
       <author>hello@tothgames.com (Michael Toth &amp; Brian Toth)</author>
       <guid>https://tothgames.com/games/loa/</guid>
       <description>Outplay your opponents in epic team duels.  Legends of the Arena is a dueling game for two teams. As a team, coordinate your unique abilities to develop a strategy, but, in order to win, you must also anticipate your opponents&#39; moves. No matter how far ahead or behind, you can always find a path to victory by outplaying your opponents!
  1-9 players 20-40 minutes Ages 12+  Epic team duels  Minimal downtime: each player participates in every combat Incredible replay: every team composition has unique strengths No player is eliminated until the game is over  Double-blind combat with diverse counterplay  Combat simulates dynamic, uncertain fights.</description>
+    </item>
+    
+    <item>
+      <title>Prototyping on Tabletop Simulator using Squib</title>
+      <link>https://tothgames.com/posts/generating-cards/</link>
+      <pubDate>Thu, 21 Jan 2021 00:00:00 +0000</pubDate>
+      <author>hello@tothgames.com (Michael Toth &amp; Brian Toth)</author>
+      <guid>https://tothgames.com/posts/generating-cards/</guid>
+      <description>Introduction If you are interested in making a boardgame that involves cards (or a cardgame without a board at all), you&amp;rsquo;ve come to the right place! Even if your game doesn&amp;rsquo;t use standard-sized playing cards, it might have character sheets, player mats, or other significant components with ever-changing text. If you&amp;rsquo;ve already started making your game, you&amp;rsquo;ve probably found it can be frustrating to constantly update your cards as your game evolves.</description>
     </item>
     
   </channel>
