@@ -17,6 +17,7 @@ publishDir = "docs"
   dateFormat = "January 2, 2006"
   commit = false
   rss = true
+  rssUrl = "posts/index.xml"
   comments = true
   readingTime = false 
   wordCount = false

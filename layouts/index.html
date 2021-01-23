@@ -1,2 +1,12 @@
-<!-- inlines all of the info from the legends page for now  -->
-{{ with .GetPage "/games/loa" }}{{ .Render }}{{end}}
+{{ define "main" }}
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <!-- inlines all of the info from the legends page for now  -->
+        {{ with .GetPage "/games/loa" }}{{ .Content }}{{end}}
+      </article>
+    </div>
+  </div>
+</div>
+{{ end }}
