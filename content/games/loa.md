@@ -1,7 +1,9 @@
 ---
+title: loa
 type: page
 date: 2021-01-21
 bigimg: [{src: "/legends_logo_v1.png" }]
+showTitle: false
 ---
 
 ## Outplay your opponents in epic team duels.
