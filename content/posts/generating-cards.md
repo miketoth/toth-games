@@ -1,6 +1,7 @@
 ---
 title: "Prototyping on Tabletop Simulator using Squib"
 date: 2021-01-21
+type: page
 author: Brian Toth
 toc: true
 tags: ["prototyping", "Squib", "Tabletop Simulator"]
