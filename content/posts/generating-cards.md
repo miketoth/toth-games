@@ -5,6 +5,7 @@ type: page
 author: Brian Toth
 toc: true
 tags: ["prototyping", "Squib", "Tabletop Simulator"]
+comments: true
 ---
 ## Introduction
 
