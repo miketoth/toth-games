@@ -5,6 +5,7 @@ type: page
 author: Brian Toth
 toc: true
 tags: ["design", "programming", "analysis", "simulation"]
+comments: true
 ---
 ## Introduction
 
