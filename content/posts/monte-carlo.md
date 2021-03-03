@@ -139,7 +139,7 @@ Next, we turn to the question of the number of unique cards in each hand.  This 
 
 ![expected number of unique cards in hand, hand size 4](../images/monte-carlo/unique_cards_hand_4.png)
 
-The points on the graph above represent the mean number of unique cards. The bars show one standard deviation above and below the mean.  Approximately 68% of hands will fall within one standard deviation of the mean.  To me, these results are quite surprising.  Given that a deck with 2 copies of each card can never have fewer than 2 unique cards in a hand of 4, I would have expected a much bigger difference in the mean number of unique cards in hand compared to a deck with 5 copies of each card (recall that there are 6 unique cards in the game).  
+The points on the graph above represent the mean number of unique cards. The bars show one standard deviation above and below the mean.  To me, these results are quite surprising.  Given that a deck with 2 copies of each card can never have fewer than 2 unique cards in a hand of 4, I would have expected a much bigger difference in the mean number of unique cards in hand compared to a deck with 5 copies of each card (recall that there are 6 unique cards in the game).  
 
 We see a similar result with a five card hand in the graph below.
 ![expected number of unique cards in hand, hand size 5](../images/monte-carlo/unique_cards_hand_5.png)
