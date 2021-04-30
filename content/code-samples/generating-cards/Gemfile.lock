@@ -51,6 +51,8 @@ GEM
     multi_json (1.15.0)
     multipart-post (2.1.1)
     native-package-installer (1.0.9)
+    nokogiri (1.10.10)
+      mini_portile2 (~> 2.4.0)
     nokogiri (1.10.10-x64-mingw32)
       mini_portile2 (~> 2.4.0)
     os (1.1.1)
@@ -66,7 +68,7 @@ GEM
       declarative-option (< 0.2.0)
       uber (< 0.2.0)
     retriable (3.1.2)
-    rexml (3.2.4)
+    rexml (3.2.5)
     roo (2.8.3)
       nokogiri (~> 1)
       rubyzip (>= 1.3.0, < 3.0.0)
@@ -98,6 +100,7 @@ GEM
 
 PLATFORMS
   x64-mingw32
+  x86_64-linux
 
 DEPENDENCIES
   game_icons
