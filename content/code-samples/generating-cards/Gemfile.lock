@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.7.0)
+    addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
     cairo (1.16.6)
       native-package-installer (>= 1.0.3)
@@ -51,6 +51,8 @@ GEM
     multi_json (1.15.0)
     multipart-post (2.1.1)
     native-package-installer (1.0.9)
+    nokogiri (1.10.10)
+      mini_portile2 (~> 2.4.0)
     nokogiri (1.10.10-x64-mingw32)
       mini_portile2 (~> 2.4.0)
     os (1.1.1)
@@ -98,6 +100,7 @@ GEM
 
 PLATFORMS
   x64-mingw32
+  x86_64-linux
 
 DEPENDENCIES
   game_icons
